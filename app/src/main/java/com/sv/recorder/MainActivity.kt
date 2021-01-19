@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
                 mediaRecorder?.pause()
                 recordingStopped = true
                 button_pause_recording.text = "Resume"
-            }else{
+            } else {
                 resumeRecording()
             }
         }
